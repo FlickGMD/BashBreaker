@@ -46,7 +46,6 @@ function crack_md5(){
   
   if [[ $(echo -n "$character" | wc -c ) -ne 32 ]]; then
     echo -e "\n${bright_red}[!] Error fatal!!. La cadena introducida no es valida.${end}\n" 1>&2
-    helpPanel
     return 1
   fi
 
