@@ -37,11 +37,6 @@ function CrackZip(){
   if [[ ! -f "$wordlist" ]]; then
     echo -e "\n${bright_red}[!] Fatal Error: No such file or directory${end} ${bg_bright_red}$wordlist${end}\n"
     exit 1
-  fi 1>&1
-  
-  if ! file test.zip | grep -oP "Zip archive data, at least v2.0 to extract" &>/dev/null; then
-    echo -e "\n${bright_red}[+] Error fatal, este archivo no parece un .zip!!${end}"
-    exit 1
   fi 1>&2
 
   while read password; do
