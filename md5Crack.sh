@@ -40,7 +40,6 @@ function crack_md5(){
   [[ $show_banner == true ]] && banner
   if [[ ! -f $wordlist ]]; then
     echo -e "\n${bright_red}[!] No such file or directory: $wordlist!!${end}\n\n" 1>&2
-    helpPanel
     return 1
   fi
   
