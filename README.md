@@ -27,8 +27,10 @@ chmod +x md5Crack.sh DestroyZip.sh
 ### Ejemplo
 
 ```bash
-./md5Crack.sh -c e10adc3949ba59abbe56e057f20f883e -w rockyou.txt # Hash md5 proveniente de '123456'
+./md5Crack.sh -c 'ac3665f6acae8bd267ed92a71a71313b' -w rockyou.txt # Hash md5 proveniente de 'princesa'
 ```
+![image](https://github.com/user-attachments/assets/fb13f916-8077-47e1-b038-de888216d8c5)
+
 
 **Opciones:**
 - `-c` : Especifica el hash MD5 a romper.
@@ -53,6 +55,8 @@ chmod +x md5Crack.sh DestroyZip.sh
 ```bash
 ./DestroyZip.sh -z test.zip -w rockyou.txt 
 ```
+![image](https://github.com/user-attachments/assets/73ded8b2-75e5-4904-94c1-95f38eb6e3ba)
+
 
 ## Requisitos
 
